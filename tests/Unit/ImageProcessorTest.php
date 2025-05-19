@@ -14,7 +14,6 @@ class ImageProcessorTest extends TestCase
     /** @test */
     public function it_processes_an_image_and_adds_a_watermark()
     {
-        
         // Arrange
         $imageProcessor = new ImageProcessor();
         $mockImage = Mockery::mock(InterventionImage::class);
